@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>ONEPAGE WEBSITE</title>
+        <style>
+            .bg
+            {
+                background-image:url("my.jpg");
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                height:100%;
+            }
+            body,html{
+                margin:0%;
+            }
+            a{
+              text-decoration:none;
+              text-align:center;
+              color:rgb(148,54,25);
+              font-size:25px;
+              padding:14px 16px;
+            }
+            .bg1
+            {
+                background-image:url("about.jpg");
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                height:100%;
+            }
+            .bg2
+            {
+                background-image:url("contact.jpg");
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                height:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg" id="home">
+            <center>
+            <a href="#home">HOME</a>
+            <a href="#aboutme">ABOUT ME</a>
+            <a href="#contactus">CONTACT US</a>
+            <h1>WELCOME TO PORTAL</h1>
+        </div>
+
+        <div class="bg1" id="aboutme">
+            <h1>ABOUTME</h1>
+            <P>I DO MY BEST</P>
+        </div>
+
+        <div class="bg2" id="contactus">
+            <h1>CONTACT US</h1><br>
+            <form method="POST" action="dbdata.php">
+        
+            NAME<br>
+            <input type="text"placeholder="Enter your name" name="name"><br><br>
+            PHONENUMBER<br>
+            <input type="int"placeholder="Enter your phonenumber " name="phonenumber"><br><br> 
+            EMAILID<br>
+            <input type="email"placeholder="Enter your email" name="email"> <br><br>
+            COLLEGE NAME<br>
+            <input type="text"placeholder="Enter your collegename" name="collegename"><br><br>
+            <input type="submit " value="submit">
+        </center>
+        </form>
+        </div>
+        
+        
+    </body>
+
+</html>
